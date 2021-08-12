@@ -68,6 +68,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  omniauth-oauth2 (~> 1.7.1)
   omniauth-soundcloud!
   rake
   rspec
