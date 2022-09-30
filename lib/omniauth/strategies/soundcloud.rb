@@ -10,7 +10,8 @@ module OmniAuth
       option :client_options, {
         :site => 'https://api.soundcloud.com',
         :authorize_url => '/connect',
-        :token_url => '/oauth2/token'
+        :token_url => '/oauth2/token',
+        :auth_scheme => :request_body
       }
 
       option :access_token_options, {
